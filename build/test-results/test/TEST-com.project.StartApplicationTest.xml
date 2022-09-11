@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.project.StartApplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-11T04:40:10" hostname="ARC02Y544MJG5H.local" time="2.589">
+  <properties/>
+  <testcase name="startApplicationTest()" classname="com.project.StartApplicationTest" time="2.589"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.3)
+
+2022-09-11 01:40:11.011  INFO 39577 --- [    Test worker] com.project.Application                  : Starting Application using Java 11.0.11 on ARC02Y544MJG5H.local with PID 39577 (started by Fi in /Users/Shared/java-starter-api/java-starter)
+2022-09-11 01:40:11.017  INFO 39577 --- [    Test worker] com.project.Application                  : No active profile set, falling back to 1 default profile: "default"
+2022-09-11 01:40:11.961  INFO 39577 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-11 01:40:11.974  INFO 39577 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-11 01:40:11.974  INFO 39577 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-11 01:40:12.068  INFO 39577 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-11 01:40:12.068  INFO 39577 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2022-09-11 01:40:12.213  INFO 39577 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.1.6 by Redgate
+2022-09-11 01:40:12.213  INFO 39577 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.1.6
+2022-09-11 01:40:12.213  INFO 39577 --- [    Test worker] o.f.c.internal.license.VersionPrinter    : 
+2022-09-11 01:40:12.221  INFO 39577 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-11 01:40:12.422  INFO 39577 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-11 01:40:12.434  INFO 39577 --- [    Test worker] o.f.c.i.database.base.BaseDatabaseType   : Database: jdbc:h2:mem:testdb (H2 2.1)
+2022-09-11 01:40:12.491  INFO 39577 --- [    Test worker] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.013s)
+2022-09-11 01:40:12.498  INFO 39577 --- [    Test worker] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+2022-09-11 01:40:12.522  INFO 39577 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": << Empty Schema >>
+2022-09-11 01:40:12.527  INFO 39577 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "1 - create entity table"
+2022-09-11 01:40:12.539  INFO 39577 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Migrating schema "PUBLIC" to version "2 - insert entity data"
+2022-09-11 01:40:12.543  INFO 39577 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Successfully applied 2 migrations to schema "PUBLIC", now at version v2 (execution time 00:00.022s)
+2022-09-11 01:40:12.865  INFO 39577 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-11 01:40:12.875  INFO 39577 --- [    Test worker] com.project.Application                  : Started Application in 2.433 seconds (JVM running for 3.773)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

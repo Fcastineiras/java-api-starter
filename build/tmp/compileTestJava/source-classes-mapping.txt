@@ -1,0 +1,10 @@
+com/project/ApplicationTests.java
+ com.project.ApplicationTests
+com/project/StartApplicationTest.java
+ com.project.StartApplicationTest
+com/project/integrationTest/BaseIntegrationTest.java
+ com.project.integrationTest.BaseIntegrationTest
+com/project/price/EntityRepositoryTest.java
+ com.project.price.EntityRepositoryTest
+com/project/integrationTest/entity/EntityIntegrationTest.java
+ com.project.integrationTest.entity.EntityIntegrationTest

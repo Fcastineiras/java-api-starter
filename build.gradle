@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.3'
+    id 'io.spring.dependency-management' version '1.0.13.RELEASE'
+    id 'com.github.sherter.google-java-format' version '0.9'
+}
+
+group = 'com.java-sterter-api'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.postgresql:postgresql'
+    implementation 'com.google.guava:guava-io:r03'
+    implementation 'com.google.guava:guava:31.0.1-jre'
+    implementation 'mysql:mysql-connector-java:8.0.18'
+    implementation 'org.apache.logging.log4j:log4j-api'
+    implementation 'org.flywaydb:flyway-core:9.1.6'
+    runtimeOnly 'com.h2database:h2:2.1.214'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
